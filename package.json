@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "name": "my-awesome-pkg",
+  "browserify": {
+    "transform": [
+      "phpify"
+    ]
+  },
+  "phpify": {
+    "phpToJS": {
+      "include": [
+        "php/**/*.php",
+        "vendor/autoload.php",
+        "vendor/composer/**/*.php",
+        "vendor/symfony/event-dispatcher/**/*.php"
+      ]
+    }
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "phpify": "^3.0.1"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && browserify index > dist/bundle.js"
+  }
+}
