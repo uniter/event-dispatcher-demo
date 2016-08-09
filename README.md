@@ -3,6 +3,14 @@ EventDispatcher demo for PHPify
 
 Demo of compiling Symfony's [`EventDispatcher` component](http://symfony.com/doc/current/components/event_dispatcher.html) to JavaScript, as used in the docs for [PHPify](https://github.com/uniter/phpify).
 
+Usage
+-----
+
+The bundle has already been compiled for you, just open `demo.html` in a browser to test it out!
+
+Rebuilding
+----------
+
 An extra script has been added to `package.json` in this repo:
 
 ```json
