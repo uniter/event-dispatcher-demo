@@ -11,6 +11,12 @@ The bundle has already been compiled for you, just open `demo.html` in a browser
 Rebuilding
 ----------
 
+Install the JS and PHP dependencies:
+```shell
+npm install
+composer install
+```
+
 An extra script has been added to `package.json` in this repo:
 
 ```json
